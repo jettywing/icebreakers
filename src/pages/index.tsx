@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ice Breakers</title>
+        <title>Break Ice</title>
         <meta name="Ice Breakers" content="When your convo needs a kickstart" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
