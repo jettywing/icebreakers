@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ice Breakers</title>
-        <meta name="Ice Breakers" content="When your convo needs a kickstart" />
+        <title>Break Ice</title>
+        <meta name="Break Ice" content="When your convo needs a kickstart" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className=" flex min-h-screen flex-col items-center justify-around bg-gradient-to-b from-[#2e026d] to-[#15162c]">
