@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Break Ice</title>
+        <title>Ice Breakers</title>
         <meta name="Ice Breakers" content="When your convo needs a kickstart" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
@@ -20,9 +20,9 @@ export default function Home() {
         <Login />
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <h1 className="text-center text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            Ice Breakers
+            Break Ice
           </h1>
-          <ul>
+          <ul className="overflow-auto">
             {ShowPrompts.data?.map((prompt) => (
               <li key={prompt.id} className="text-white">
                 {prompt.opener}
@@ -32,8 +32,8 @@ export default function Home() {
         </div>
         <CreatePromptForm />
         <div>
-          <small className="text-center text-white">
-            *No affilation with the breath freshener brand
+          <small className="text-white">
+            &copy; Break Ice 2023 🥶 All Rights Reserved
           </small>
         </div>
       </main>
